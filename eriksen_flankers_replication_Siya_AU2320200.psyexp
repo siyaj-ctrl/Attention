@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2025.2.0">
+  <Settings>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '&quot;001&quot;'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(900, 668)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="eriksen_flankers_replication_Siya_AU2320200" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="['MIDDLE_BUTTON']" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="Fixation" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="Fixation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.03, 0.03)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="letter_stims = []" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="letter_stims = [];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="s = Number.parseFloat(spacing_deg);&amp;#10;letters = stimulus.toString();&amp;#10;letter_stims = [];&amp;#10;for (var i, _pj_c = 0, _pj_a = util.range(letters.length), _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    i = _pj_a[_pj_c];&amp;#10;    x = ((i - ((letters.length - 1) / 2)) * (0.6 + s));&amp;#10;    stim = new visual.TextStim({&quot;win&quot;: psychoJS.window, &quot;text&quot;: letters[i], &quot;pos&quot;: [x, 0], &quot;units&quot;: &quot;deg&quot;, &quot;height&quot;: 1.0, &quot;color&quot;: &quot;white&quot;});&amp;#10;    letter_stims.push(stim);&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="s = float(spacing_deg)&amp;#10;letters = str(stimulus)&amp;#10;&amp;#10;letter_stims = []&amp;#10;&amp;#10;for i in range(len(letters)):&amp;#10;    x = (i - (len(letters) - 1) / 2) * (0.6 + s)&amp;#10;&amp;#10;    stim = visual.TextStim(&amp;#10;        win=win,&amp;#10;        text=letters[i],&amp;#10;        pos=(x, 0),&amp;#10;        units='deg',&amp;#10;        height=1.0,&amp;#10;        color='white'&amp;#10;    )&amp;#10;&amp;#10;    letter_stims.append(stim)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="if t &gt;= 0.5:&amp;#10;    for stim in letter_stims:&amp;#10;        stim.draw()" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((t &gt;= 0.5)) {&amp;#10;    for (var stim, _pj_c = 0, _pj_a = letter_stims, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;        stim = _pj_a[_pj_c];&amp;#10;        stim.draw();&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'left','right'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="$correct" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Introduction">
+      <RoutineSettingsComponent name="Introduction" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Introduction" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Welcome!&amp;#10;&amp;#10;&amp;#10;You will see a group of letters on the screen.&amp;#10;Identify the letter in the centre and ignore the surrounding letters.&amp;#10;&amp;#10;&amp;#10;Press the LEFT arrow for H or K.&amp;#10;&amp;#10;Press the RIGHT arrow for S or C.&amp;#10;&amp;#10;&amp;#10;Respond as quickly and accurately as possible.&amp;#10;The letters will remain on the screen until you respond.&amp;#10;&amp;#10;&amp;#10;&amp;#10;Press SPACE to begin." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="intro_resp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="intro_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Introduction"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'S_Number': 1, 'condition': 'Same as Target', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'H', 'stimulus': 'HHHHHHH', 'correct': 'left'}, {'S_Number': 2, 'condition': 'Same as Target', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'K', 'stimulus': 'KKKKKKK', 'correct': 'left'}, {'S_Number': 3, 'condition': 'Same as Target', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'S', 'stimulus': 'SSSSSSS', 'correct': 'right'}, {'S_Number': 4, 'condition': 'Same as Target', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'C', 'stimulus': 'CCCCCCC', 'correct': 'right'}, {'S_Number': 5, 'condition': 'Same as Target', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'H', 'stimulus': 'HHHHHHH', 'correct': 'left'}, {'S_Number': 6, 'condition': 'Same as Target', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'K', 'stimulus': 'KKKKKKK', 'correct': 'left'}, {'S_Number': 7, 'condition': 'Same as Target', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'S', 'stimulus': 'SSSSSSS', 'correct': 'right'}, {'S_Number': 8, 'condition': 'Same as Target', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'C', 'stimulus': 'CCCCCCC', 'correct': 'right'}, {'S_Number': 9, 'condition': 'Same as Target', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'H', 'stimulus': 'HHHHHHH', 'correct': 'left'}, {'S_Number': 10, 'condition': 'Same as Target', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'K', 'stimulus': 'KKKKKKK', 'correct': 'left'}, {'S_Number': 11, 'condition': 'Same as Target', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'S', 'stimulus': 'SSSSSSS', 'correct': 'right'}, {'S_Number': 12, 'condition': 'Same as Target', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'C', 'stimulus': 'CCCCCCC', 'correct': 'right'}, {'S_Number': 13, 'condition': 'Response Compatible', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'H', 'stimulus': 'KKKHKKK', 'correct': 'left'}, {'S_Number': 14, 'condition': 'Response Compatible', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'K', 'stimulus': 'KKKKKKK', 'correct': 'left'}, {'S_Number': 15, 'condition': 'Response Compatible', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'S', 'stimulus': 'SSSSSSS', 'correct': 'right'}, {'S_Number': 16, 'condition': 'Response Compatible', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'C', 'stimulus': 'SSSCSSS', 'correct': 'right'}, {'S_Number': 17, 'condition': 'Response Compatible', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'H', 'stimulus': 'KKKHKKK', 'correct': 'left'}, {'S_Number': 18, 'condition': 'Response Compatible', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'K', 'stimulus': 'KKKKKKK', 'correct': 'left'}, {'S_Number': 19, 'condition': 'Response Compatible', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'S', 'stimulus': 'SSSSSSS', 'correct': 'right'}, {'S_Number': 20, 'condition': 'Response Compatible', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'C', 'stimulus': 'SSSCSSS', 'correct': 'right'}, {'S_Number': 21, 'condition': 'Response Compatible', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'H', 'stimulus': 'KKKHKKK', 'correct': 'left'}, {'S_Number': 22, 'condition': 'Response Compatible', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'K', 'stimulus': 'KKKKKKK', 'correct': 'left'}, {'S_Number': 23, 'condition': 'Response Compatible', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'S', 'stimulus': 'SSSSSSS', 'correct': 'right'}, {'S_Number': 24, 'condition': 'Response Compatible', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'C', 'stimulus': 'SSSCSSS', 'correct': 'right'}, {'S_Number': 25, 'condition': 'Response Incompatible', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'H', 'stimulus': 'SSSHSSS', 'correct': 'left'}, {'S_Number': 26, 'condition': 'Response Incompatible', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'K', 'stimulus': 'SSSKSSS', 'correct': 'left'}, {'S_Number': 27, 'condition': 'Response Incompatible', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'S', 'stimulus': 'KKKSKKK', 'correct': 'right'}, {'S_Number': 28, 'condition': 'Response Incompatible', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'C', 'stimulus': 'KKKCKKK', 'correct': 'right'}, {'S_Number': 29, 'condition': 'Response Incompatible', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'H', 'stimulus': 'SSSHSSS', 'correct': 'left'}, {'S_Number': 30, 'condition': 'Response Incompatible', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'K', 'stimulus': 'SSSKSSS', 'correct': 'left'}, {'S_Number': 31, 'condition': 'Response Incompatible', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'S', 'stimulus': 'KKKSKKK', 'correct': 'right'}, {'S_Number': 32, 'condition': 'Response Incompatible', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'C', 'stimulus': 'KKKCKKK', 'correct': 'right'}, {'S_Number': 33, 'condition': 'Response Incompatible', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'H', 'stimulus': 'SSSHSSS', 'correct': 'left'}, {'S_Number': 34, 'condition': 'Response Incompatible', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'K', 'stimulus': 'SSSKSSS', 'correct': 'left'}, {'S_Number': 35, 'condition': 'Response Incompatible', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'S', 'stimulus': 'KKKSKKK', 'correct': 'right'}, {'S_Number': 36, 'condition': 'Response Incompatible', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'C', 'stimulus': 'KKKCKKK', 'correct': 'right'}, {'S_Number': 37, 'condition': 'Heterogeneous-Similar', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'H', 'stimulus': 'NWZHNWZ', 'correct': 'left'}, {'S_Number': 38, 'condition': 'Heterogeneous-Similar', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'K', 'stimulus': 'NWZKNWZ', 'correct': 'left'}, {'S_Number': 39, 'condition': 'Heterogeneous-Similar', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'S', 'stimulus': 'NWZSNWZ', 'correct': 'right'}, {'S_Number': 40, 'condition': 'Heterogeneous-Similar', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'C', 'stimulus': 'NWZCNWZ', 'correct': 'right'}, {'S_Number': 41, 'condition': 'Heterogeneous-Similar', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'H', 'stimulus': 'NWZHNWZ', 'correct': 'left'}, {'S_Number': 42, 'condition': 'Heterogeneous-Similar', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'K', 'stimulus': 'NWZKNWZ', 'correct': 'left'}, {'S_Number': 43, 'condition': 'Heterogeneous-Similar', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'S', 'stimulus': 'NWZSNWZ', 'correct': 'right'}, {'S_Number': 44, 'condition': 'Heterogeneous-Similar', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'C', 'stimulus': 'NWZCNWZ', 'correct': 'right'}, {'S_Number': 45, 'condition': 'Heterogeneous-Similar', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'H', 'stimulus': 'NWZHNWZ', 'correct': 'left'}, {'S_Number': 46, 'condition': 'Heterogeneous-Similar', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'K', 'stimulus': 'NWZKNWZ', 'correct': 'left'}, {'S_Number': 47, 'condition': 'Heterogeneous-Similar', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'S', 'stimulus': 'NWZSNWZ', 'correct': 'right'}, {'S_Number': 48, 'condition': 'Heterogeneous-Similar', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'C', 'stimulus': 'NWZCNWZ', 'correct': 'right'}, {'S_Number': 49, 'condition': 'Heterogeneous-Dissimilar', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'H', 'stimulus': 'GJQHGJQ', 'correct': 'left'}, {'S_Number': 50, 'condition': 'Heterogeneous-Dissimilar', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'K', 'stimulus': 'GJQKGJQ', 'correct': 'left'}, {'S_Number': 51, 'condition': 'Heterogeneous-Dissimilar', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'S', 'stimulus': 'GJQSGJQ', 'correct': 'right'}, {'S_Number': 52, 'condition': 'Heterogeneous-Dissimilar', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'C', 'stimulus': 'GJQCGJQ', 'correct': 'right'}, {'S_Number': 53, 'condition': 'Heterogeneous-Dissimilar', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'H', 'stimulus': 'GJQHGJQ', 'correct': 'left'}, {'S_Number': 54, 'condition': 'Heterogeneous-Dissimilar', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'K', 'stimulus': 'GJQKGJQ', 'correct': 'left'}, {'S_Number': 55, 'condition': 'Heterogeneous-Dissimilar', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'S', 'stimulus': 'GJQSGJQ', 'correct': 'right'}, {'S_Number': 56, 'condition': 'Heterogeneous-Dissimilar', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'C', 'stimulus': 'GJQCGJQ', 'correct': 'right'}, {'S_Number': 57, 'condition': 'Heterogeneous-Dissimilar', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'H', 'stimulus': 'GJQHGJQ', 'correct': 'left'}, {'S_Number': 58, 'condition': 'Heterogeneous-Dissimilar', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'K', 'stimulus': 'GJQKGJQ', 'correct': 'left'}, {'S_Number': 59, 'condition': 'Heterogeneous-Dissimilar', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'S', 'stimulus': 'GJQSGJQ', 'correct': 'right'}, {'S_Number': 60, 'condition': 'Heterogeneous-Dissimilar', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'C', 'stimulus': 'GJQCGJQ', 'correct': 'right'}, {'S_Number': 61, 'condition': 'Target Alone', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'H', 'stimulus': 'H', 'correct': 'left'}, {'S_Number': 62, 'condition': 'Target Alone', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'K', 'stimulus': 'K', 'correct': 'left'}, {'S_Number': 63, 'condition': 'Target Alone', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'S', 'stimulus': 'S', 'correct': 'right'}, {'S_Number': 64, 'condition': 'Target Alone', 'spacing': 'Close', 'spacing_deg': 0.06, 'target': 'C', 'stimulus': 'C', 'correct': 'right'}, {'S_Number': 65, 'condition': 'Target Alone', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'H', 'stimulus': 'H', 'correct': 'left'}, {'S_Number': 66, 'condition': 'Target Alone', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'K', 'stimulus': 'K', 'correct': 'left'}, {'S_Number': 67, 'condition': 'Target Alone', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'S', 'stimulus': 'S', 'correct': 'right'}, {'S_Number': 68, 'condition': 'Target Alone', 'spacing': 'Medium', 'spacing_deg': 0.5, 'target': 'C', 'stimulus': 'C', 'correct': 'right'}, {'S_Number': 69, 'condition': 'Target Alone', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'H', 'stimulus': 'H', 'correct': 'left'}, {'S_Number': 70, 'condition': 'Target Alone', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'K', 'stimulus': 'K', 'correct': 'left'}, {'S_Number': 71, 'condition': 'Target Alone', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'S', 'stimulus': 'S', 'correct': 'right'}, {'S_Number': 72, 'condition': 'Target Alone', 'spacing': 'Wide', 'spacing_deg': 1, 'target': 'C', 'stimulus': 'C', 'correct': 'right'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Conditions_1.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="3" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+  </Flow>
+</PsychoPy2experiment>
